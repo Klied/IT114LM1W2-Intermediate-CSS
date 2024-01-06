@@ -18,7 +18,12 @@
 
 /* Todo 2.0: Define  Define and apply CSS styles such that the background of .change-styles changes to
 a different color when the screen is smaller than 500px*/
-@media screen(min-width: 500px;) {
+@media screen and (min-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
   .change-color {
     background-color: red;
   }
